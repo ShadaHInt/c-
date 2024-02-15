@@ -1,0 +1,12 @@
+{
+
+  //Valid input for creating account
+
+  "ValidData": [ "Shad", "xxx", "testingmedi123@gmail.com", "Test123#", "Test123#" ],
+  "Data": [ "onlinemedicinestore123@gmail.com", "Test123#" ],
+
+
+
+  //Payment
+  "Payment": [ "jknhhuuk", "kkuutf", "iygdss", "ahshh", "kannur", "123456", "4523698715" ]
+}

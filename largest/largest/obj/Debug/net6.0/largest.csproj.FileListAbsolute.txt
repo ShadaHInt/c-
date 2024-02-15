@@ -1,0 +1,15 @@
+C:\Users\shadan\Desktop\C#\largest\largest\obj\Debug\net6.0\largest.csproj.AssemblyReference.cache
+C:\Users\shadan\Desktop\C#\largest\largest\obj\Debug\net6.0\largest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shadan\Desktop\C#\largest\largest\obj\Debug\net6.0\largest.AssemblyInfoInputs.cache
+C:\Users\shadan\Desktop\C#\largest\largest\obj\Debug\net6.0\largest.AssemblyInfo.cs
+C:\Users\shadan\Desktop\C#\largest\largest\obj\Debug\net6.0\largest.csproj.CoreCompileInputs.cache
+C:\Users\shadan\Desktop\C#\largest\largest\bin\Debug\net6.0\largest.exe
+C:\Users\shadan\Desktop\C#\largest\largest\bin\Debug\net6.0\largest.deps.json
+C:\Users\shadan\Desktop\C#\largest\largest\bin\Debug\net6.0\largest.runtimeconfig.json
+C:\Users\shadan\Desktop\C#\largest\largest\bin\Debug\net6.0\largest.dll
+C:\Users\shadan\Desktop\C#\largest\largest\bin\Debug\net6.0\largest.pdb
+C:\Users\shadan\Desktop\C#\largest\largest\obj\Debug\net6.0\largest.dll
+C:\Users\shadan\Desktop\C#\largest\largest\obj\Debug\net6.0\refint\largest.dll
+C:\Users\shadan\Desktop\C#\largest\largest\obj\Debug\net6.0\largest.pdb
+C:\Users\shadan\Desktop\C#\largest\largest\obj\Debug\net6.0\largest.genruntimeconfig.cache
+C:\Users\shadan\Desktop\C#\largest\largest\obj\Debug\net6.0\ref\largest.dll

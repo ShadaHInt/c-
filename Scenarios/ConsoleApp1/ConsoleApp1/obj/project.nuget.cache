@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "E1TvLjlQLRg+17+jo9GCBNQ2+WFNg7Vo8X4V1JcT92qj0J/e1NHPpK/v6Jmpk75S2Z34ItGL6gjOUcFnwB9r7A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\shadan\\Desktop\\C#\\Scenarios\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shadan\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

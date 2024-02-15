@@ -1,0 +1,15 @@
+C:\Users\shadan\Desktop\C#\JmeterSamplernew\JmeterSamplernew\bin\Debug\net6.0\JmeterSamplernew.exe
+C:\Users\shadan\Desktop\C#\JmeterSamplernew\JmeterSamplernew\bin\Debug\net6.0\JmeterSamplernew.deps.json
+C:\Users\shadan\Desktop\C#\JmeterSamplernew\JmeterSamplernew\bin\Debug\net6.0\JmeterSamplernew.runtimeconfig.json
+C:\Users\shadan\Desktop\C#\JmeterSamplernew\JmeterSamplernew\bin\Debug\net6.0\JmeterSamplernew.dll
+C:\Users\shadan\Desktop\C#\JmeterSamplernew\JmeterSamplernew\bin\Debug\net6.0\JmeterSamplernew.pdb
+C:\Users\shadan\Desktop\C#\JmeterSamplernew\JmeterSamplernew\obj\Debug\net6.0\JmeterSamplernew.csproj.AssemblyReference.cache
+C:\Users\shadan\Desktop\C#\JmeterSamplernew\JmeterSamplernew\obj\Debug\net6.0\JmeterSamplernew.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shadan\Desktop\C#\JmeterSamplernew\JmeterSamplernew\obj\Debug\net6.0\JmeterSamplernew.AssemblyInfoInputs.cache
+C:\Users\shadan\Desktop\C#\JmeterSamplernew\JmeterSamplernew\obj\Debug\net6.0\JmeterSamplernew.AssemblyInfo.cs
+C:\Users\shadan\Desktop\C#\JmeterSamplernew\JmeterSamplernew\obj\Debug\net6.0\JmeterSamplernew.csproj.CoreCompileInputs.cache
+C:\Users\shadan\Desktop\C#\JmeterSamplernew\JmeterSamplernew\obj\Debug\net6.0\JmeterSamplernew.dll
+C:\Users\shadan\Desktop\C#\JmeterSamplernew\JmeterSamplernew\obj\Debug\net6.0\refint\JmeterSamplernew.dll
+C:\Users\shadan\Desktop\C#\JmeterSamplernew\JmeterSamplernew\obj\Debug\net6.0\JmeterSamplernew.pdb
+C:\Users\shadan\Desktop\C#\JmeterSamplernew\JmeterSamplernew\obj\Debug\net6.0\JmeterSamplernew.genruntimeconfig.cache
+C:\Users\shadan\Desktop\C#\JmeterSamplernew\JmeterSamplernew\obj\Debug\net6.0\ref\JmeterSamplernew.dll

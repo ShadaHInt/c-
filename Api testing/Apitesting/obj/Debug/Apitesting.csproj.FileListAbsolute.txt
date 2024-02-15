@@ -1,0 +1,15 @@
+C:\Users\shadan\Desktop\C#\Api testing\Apitesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\shadan\Desktop\C#\Api testing\Apitesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\shadan\Desktop\C#\Api testing\Apitesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\shadan\Desktop\C#\Api testing\Apitesting\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\shadan\Desktop\C#\Api testing\Apitesting\bin\Debug\Apitesting.dll
+C:\Users\shadan\Desktop\C#\Api testing\Apitesting\bin\Debug\Apitesting.pdb
+C:\Users\shadan\Desktop\C#\Api testing\Apitesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\shadan\Desktop\C#\Api testing\Apitesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\shadan\Desktop\C#\Api testing\Apitesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\shadan\Desktop\C#\Api testing\Apitesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\shadan\Desktop\C#\Api testing\Apitesting\obj\Debug\Apitesting.csproj.AssemblyReference.cache
+C:\Users\shadan\Desktop\C#\Api testing\Apitesting\obj\Debug\Apitesting.csproj.CoreCompileInputs.cache
+C:\Users\shadan\Desktop\C#\Api testing\Apitesting\obj\Debug\Apitesting.csproj.CopyComplete
+C:\Users\shadan\Desktop\C#\Api testing\Apitesting\obj\Debug\Apitesting.dll
+C:\Users\shadan\Desktop\C#\Api testing\Apitesting\obj\Debug\Apitesting.pdb

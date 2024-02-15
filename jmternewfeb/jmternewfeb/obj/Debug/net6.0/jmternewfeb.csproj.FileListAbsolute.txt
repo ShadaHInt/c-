@@ -1,0 +1,15 @@
+C:\Users\shadan\Desktop\C#\jmternewfeb\jmternewfeb\bin\Debug\net6.0\jmternewfeb.exe
+C:\Users\shadan\Desktop\C#\jmternewfeb\jmternewfeb\bin\Debug\net6.0\jmternewfeb.deps.json
+C:\Users\shadan\Desktop\C#\jmternewfeb\jmternewfeb\bin\Debug\net6.0\jmternewfeb.runtimeconfig.json
+C:\Users\shadan\Desktop\C#\jmternewfeb\jmternewfeb\bin\Debug\net6.0\jmternewfeb.dll
+C:\Users\shadan\Desktop\C#\jmternewfeb\jmternewfeb\bin\Debug\net6.0\jmternewfeb.pdb
+C:\Users\shadan\Desktop\C#\jmternewfeb\jmternewfeb\obj\Debug\net6.0\jmternewfeb.csproj.AssemblyReference.cache
+C:\Users\shadan\Desktop\C#\jmternewfeb\jmternewfeb\obj\Debug\net6.0\jmternewfeb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shadan\Desktop\C#\jmternewfeb\jmternewfeb\obj\Debug\net6.0\jmternewfeb.AssemblyInfoInputs.cache
+C:\Users\shadan\Desktop\C#\jmternewfeb\jmternewfeb\obj\Debug\net6.0\jmternewfeb.AssemblyInfo.cs
+C:\Users\shadan\Desktop\C#\jmternewfeb\jmternewfeb\obj\Debug\net6.0\jmternewfeb.csproj.CoreCompileInputs.cache
+C:\Users\shadan\Desktop\C#\jmternewfeb\jmternewfeb\obj\Debug\net6.0\jmternewfeb.dll
+C:\Users\shadan\Desktop\C#\jmternewfeb\jmternewfeb\obj\Debug\net6.0\refint\jmternewfeb.dll
+C:\Users\shadan\Desktop\C#\jmternewfeb\jmternewfeb\obj\Debug\net6.0\jmternewfeb.pdb
+C:\Users\shadan\Desktop\C#\jmternewfeb\jmternewfeb\obj\Debug\net6.0\jmternewfeb.genruntimeconfig.cache
+C:\Users\shadan\Desktop\C#\jmternewfeb\jmternewfeb\obj\Debug\net6.0\ref\jmternewfeb.dll

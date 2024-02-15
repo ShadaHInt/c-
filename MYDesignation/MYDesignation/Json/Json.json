@@ -1,0 +1,11 @@
+﻿{
+  "email": "Samplemailtest.22@gmail.com",
+  "password": "Ragaschoo1",
+  "firstname": "Sample",
+  "lastname": "Test",
+  "invalidEmail": [ "12345678", "123abc", "abc@gmail"],
+  "invalidPass": [ ".", "r", "123" ],
+  "search1": "bag",
+  "search2": "shoes",
+  "cartsearch": "dresses for baby"
+}

@@ -1,0 +1,12 @@
+C:\Users\shadan\Desktop\C#\Demo22\Demo22\bin\Debug\net6.0\APIDemo.deps.json
+C:\Users\shadan\Desktop\C#\Demo22\Demo22\bin\Debug\net6.0\APIDemo.dll
+C:\Users\shadan\Desktop\C#\Demo22\Demo22\bin\Debug\net6.0\APIDemo.pdb
+C:\Users\shadan\Desktop\C#\Demo22\Demo22\obj\Debug\net6.0\APIDemo.csproj.AssemblyReference.cache
+C:\Users\shadan\Desktop\C#\Demo22\Demo22\obj\Debug\net6.0\APIDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shadan\Desktop\C#\Demo22\Demo22\obj\Debug\net6.0\APIDemo.AssemblyInfoInputs.cache
+C:\Users\shadan\Desktop\C#\Demo22\Demo22\obj\Debug\net6.0\APIDemo.AssemblyInfo.cs
+C:\Users\shadan\Desktop\C#\Demo22\Demo22\obj\Debug\net6.0\APIDemo.csproj.CoreCompileInputs.cache
+C:\Users\shadan\Desktop\C#\Demo22\Demo22\obj\Debug\net6.0\APIDemo.dll
+C:\Users\shadan\Desktop\C#\Demo22\Demo22\obj\Debug\net6.0\refint\APIDemo.dll
+C:\Users\shadan\Desktop\C#\Demo22\Demo22\obj\Debug\net6.0\APIDemo.pdb
+C:\Users\shadan\Desktop\C#\Demo22\Demo22\obj\Debug\net6.0\ref\APIDemo.dll

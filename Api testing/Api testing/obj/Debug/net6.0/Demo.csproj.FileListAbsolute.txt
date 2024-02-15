@@ -1,0 +1,12 @@
+C:\Users\shadan\Desktop\C#\Api testing\Api testing\bin\Debug\net6.0\Demo.deps.json
+C:\Users\shadan\Desktop\C#\Api testing\Api testing\bin\Debug\net6.0\Demo.dll
+C:\Users\shadan\Desktop\C#\Api testing\Api testing\bin\Debug\net6.0\Demo.pdb
+C:\Users\shadan\Desktop\C#\Api testing\Api testing\obj\Debug\net6.0\Demo.csproj.AssemblyReference.cache
+C:\Users\shadan\Desktop\C#\Api testing\Api testing\obj\Debug\net6.0\Demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shadan\Desktop\C#\Api testing\Api testing\obj\Debug\net6.0\Demo.AssemblyInfoInputs.cache
+C:\Users\shadan\Desktop\C#\Api testing\Api testing\obj\Debug\net6.0\Demo.AssemblyInfo.cs
+C:\Users\shadan\Desktop\C#\Api testing\Api testing\obj\Debug\net6.0\Demo.csproj.CoreCompileInputs.cache
+C:\Users\shadan\Desktop\C#\Api testing\Api testing\obj\Debug\net6.0\Demo.dll
+C:\Users\shadan\Desktop\C#\Api testing\Api testing\obj\Debug\net6.0\refint\Demo.dll
+C:\Users\shadan\Desktop\C#\Api testing\Api testing\obj\Debug\net6.0\Demo.pdb
+C:\Users\shadan\Desktop\C#\Api testing\Api testing\obj\Debug\net6.0\ref\Demo.dll

@@ -1,0 +1,15 @@
+C:\Users\shadan\Desktop\C#\qstn8\qstn8\obj\Debug\net6.0\qstn8.csproj.AssemblyReference.cache
+C:\Users\shadan\Desktop\C#\qstn8\qstn8\obj\Debug\net6.0\qstn8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shadan\Desktop\C#\qstn8\qstn8\obj\Debug\net6.0\qstn8.AssemblyInfoInputs.cache
+C:\Users\shadan\Desktop\C#\qstn8\qstn8\obj\Debug\net6.0\qstn8.AssemblyInfo.cs
+C:\Users\shadan\Desktop\C#\qstn8\qstn8\obj\Debug\net6.0\qstn8.csproj.CoreCompileInputs.cache
+C:\Users\shadan\Desktop\C#\qstn8\qstn8\bin\Debug\net6.0\qstn8.exe
+C:\Users\shadan\Desktop\C#\qstn8\qstn8\bin\Debug\net6.0\qstn8.deps.json
+C:\Users\shadan\Desktop\C#\qstn8\qstn8\bin\Debug\net6.0\qstn8.runtimeconfig.json
+C:\Users\shadan\Desktop\C#\qstn8\qstn8\bin\Debug\net6.0\qstn8.dll
+C:\Users\shadan\Desktop\C#\qstn8\qstn8\bin\Debug\net6.0\qstn8.pdb
+C:\Users\shadan\Desktop\C#\qstn8\qstn8\obj\Debug\net6.0\qstn8.dll
+C:\Users\shadan\Desktop\C#\qstn8\qstn8\obj\Debug\net6.0\refint\qstn8.dll
+C:\Users\shadan\Desktop\C#\qstn8\qstn8\obj\Debug\net6.0\qstn8.pdb
+C:\Users\shadan\Desktop\C#\qstn8\qstn8\obj\Debug\net6.0\qstn8.genruntimeconfig.cache
+C:\Users\shadan\Desktop\C#\qstn8\qstn8\obj\Debug\net6.0\ref\qstn8.dll

@@ -1,0 +1,2 @@
+C:\Users\shadan\Desktop\C#\Demo22\Testing\obj\Debug\ApiTesting22.csproj.AssemblyReference.cache
+C:\Users\shadan\Desktop\C#\Demo22\Testing\obj\Debug\ApiTesting22.csproj.CoreCompileInputs.cache

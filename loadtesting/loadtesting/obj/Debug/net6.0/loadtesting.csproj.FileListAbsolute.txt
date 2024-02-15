@@ -1,0 +1,15 @@
+C:\Users\shadan\Desktop\C#\loadtesting\loadtesting\bin\Debug\net6.0\loadtesting.exe
+C:\Users\shadan\Desktop\C#\loadtesting\loadtesting\bin\Debug\net6.0\loadtesting.deps.json
+C:\Users\shadan\Desktop\C#\loadtesting\loadtesting\bin\Debug\net6.0\loadtesting.runtimeconfig.json
+C:\Users\shadan\Desktop\C#\loadtesting\loadtesting\bin\Debug\net6.0\loadtesting.dll
+C:\Users\shadan\Desktop\C#\loadtesting\loadtesting\bin\Debug\net6.0\loadtesting.pdb
+C:\Users\shadan\Desktop\C#\loadtesting\loadtesting\obj\Debug\net6.0\loadtesting.csproj.AssemblyReference.cache
+C:\Users\shadan\Desktop\C#\loadtesting\loadtesting\obj\Debug\net6.0\loadtesting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shadan\Desktop\C#\loadtesting\loadtesting\obj\Debug\net6.0\loadtesting.AssemblyInfoInputs.cache
+C:\Users\shadan\Desktop\C#\loadtesting\loadtesting\obj\Debug\net6.0\loadtesting.AssemblyInfo.cs
+C:\Users\shadan\Desktop\C#\loadtesting\loadtesting\obj\Debug\net6.0\loadtesting.csproj.CoreCompileInputs.cache
+C:\Users\shadan\Desktop\C#\loadtesting\loadtesting\obj\Debug\net6.0\loadtesting.dll
+C:\Users\shadan\Desktop\C#\loadtesting\loadtesting\obj\Debug\net6.0\refint\loadtesting.dll
+C:\Users\shadan\Desktop\C#\loadtesting\loadtesting\obj\Debug\net6.0\loadtesting.pdb
+C:\Users\shadan\Desktop\C#\loadtesting\loadtesting\obj\Debug\net6.0\loadtesting.genruntimeconfig.cache
+C:\Users\shadan\Desktop\C#\loadtesting\loadtesting\obj\Debug\net6.0\ref\loadtesting.dll

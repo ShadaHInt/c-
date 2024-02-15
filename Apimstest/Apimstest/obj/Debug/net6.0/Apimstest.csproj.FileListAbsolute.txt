@@ -1,0 +1,5 @@
+C:\Users\shadan\Desktop\C#\Apimstest\Apimstest\obj\Debug\net6.0\Apimstest.csproj.AssemblyReference.cache
+C:\Users\shadan\Desktop\C#\Apimstest\Apimstest\obj\Debug\net6.0\Apimstest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shadan\Desktop\C#\Apimstest\Apimstest\obj\Debug\net6.0\Apimstest.AssemblyInfoInputs.cache
+C:\Users\shadan\Desktop\C#\Apimstest\Apimstest\obj\Debug\net6.0\Apimstest.AssemblyInfo.cs
+C:\Users\shadan\Desktop\C#\Apimstest\Apimstest\obj\Debug\net6.0\Apimstest.csproj.CoreCompileInputs.cache

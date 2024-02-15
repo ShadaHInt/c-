@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mobile app", "Mobile app", "{14311773-D684-4EF5-ACBB-E893668F0F61}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mobileapp2", "..\mobileapp2\mobileapp2\mobileapp2.csproj", "{A7D6EB14-657D-4C94-886E-6CAC3C54003D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APITestingPOC", "..\APITestingPOC\APITestingPOC\APITestingPOC.csproj", "{CBBCB910-1C74-4F1B-ACE1-C66DDCAE98B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API testing", "API testing", "{D3C6B579-6150-40BE-9BB5-98AB21227CAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "web", "web", "{A85EA1C4-6E4C-48FC-A983-E30B365849E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Myntra31-01-23", "..\Myntra31-01-23\Myntra31-01-23\Myntra31-01-23.csproj", "{E2F37A8E-97F2-406E-98ED-78B49F4D83A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Webautomation26-01-23", "..\Webautomation26-01-23\Webautomation26-01-23\Webautomation26-01-23.csproj", "{ABC94485-26BD-47B4-B47D-9BC20E4B4CF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7D6EB14-657D-4C94-886E-6CAC3C54003D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7D6EB14-657D-4C94-886E-6CAC3C54003D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7D6EB14-657D-4C94-886E-6CAC3C54003D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7D6EB14-657D-4C94-886E-6CAC3C54003D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBBCB910-1C74-4F1B-ACE1-C66DDCAE98B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBBCB910-1C74-4F1B-ACE1-C66DDCAE98B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBBCB910-1C74-4F1B-ACE1-C66DDCAE98B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBBCB910-1C74-4F1B-ACE1-C66DDCAE98B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2F37A8E-97F2-406E-98ED-78B49F4D83A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2F37A8E-97F2-406E-98ED-78B49F4D83A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2F37A8E-97F2-406E-98ED-78B49F4D83A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2F37A8E-97F2-406E-98ED-78B49F4D83A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABC94485-26BD-47B4-B47D-9BC20E4B4CF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABC94485-26BD-47B4-B47D-9BC20E4B4CF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABC94485-26BD-47B4-B47D-9BC20E4B4CF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABC94485-26BD-47B4-B47D-9BC20E4B4CF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A7D6EB14-657D-4C94-886E-6CAC3C54003D} = {14311773-D684-4EF5-ACBB-E893668F0F61}
+		{CBBCB910-1C74-4F1B-ACE1-C66DDCAE98B3} = {D3C6B579-6150-40BE-9BB5-98AB21227CAF}
+		{E2F37A8E-97F2-406E-98ED-78B49F4D83A8} = {A85EA1C4-6E4C-48FC-A983-E30B365849E1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4984C73-51CC-4FF8-AAEB-2F773FFD5B23}
+	EndGlobalSection
+EndGlobal

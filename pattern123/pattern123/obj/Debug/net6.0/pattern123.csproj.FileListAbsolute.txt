@@ -1,0 +1,15 @@
+C:\Users\shadan\Desktop\C#\pattern123\pattern123\bin\Debug\net6.0\pattern123.exe
+C:\Users\shadan\Desktop\C#\pattern123\pattern123\bin\Debug\net6.0\pattern123.deps.json
+C:\Users\shadan\Desktop\C#\pattern123\pattern123\bin\Debug\net6.0\pattern123.runtimeconfig.json
+C:\Users\shadan\Desktop\C#\pattern123\pattern123\bin\Debug\net6.0\pattern123.dll
+C:\Users\shadan\Desktop\C#\pattern123\pattern123\bin\Debug\net6.0\pattern123.pdb
+C:\Users\shadan\Desktop\C#\pattern123\pattern123\obj\Debug\net6.0\pattern123.csproj.AssemblyReference.cache
+C:\Users\shadan\Desktop\C#\pattern123\pattern123\obj\Debug\net6.0\pattern123.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shadan\Desktop\C#\pattern123\pattern123\obj\Debug\net6.0\pattern123.AssemblyInfoInputs.cache
+C:\Users\shadan\Desktop\C#\pattern123\pattern123\obj\Debug\net6.0\pattern123.AssemblyInfo.cs
+C:\Users\shadan\Desktop\C#\pattern123\pattern123\obj\Debug\net6.0\pattern123.csproj.CoreCompileInputs.cache
+C:\Users\shadan\Desktop\C#\pattern123\pattern123\obj\Debug\net6.0\pattern123.dll
+C:\Users\shadan\Desktop\C#\pattern123\pattern123\obj\Debug\net6.0\refint\pattern123.dll
+C:\Users\shadan\Desktop\C#\pattern123\pattern123\obj\Debug\net6.0\pattern123.pdb
+C:\Users\shadan\Desktop\C#\pattern123\pattern123\obj\Debug\net6.0\pattern123.genruntimeconfig.cache
+C:\Users\shadan\Desktop\C#\pattern123\pattern123\obj\Debug\net6.0\ref\pattern123.dll

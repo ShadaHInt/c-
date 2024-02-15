@@ -1,0 +1,15 @@
+C:\Users\shadan\Desktop\C#\sumof2num\sumof2num\obj\Debug\net6.0\sumof2num.csproj.AssemblyReference.cache
+C:\Users\shadan\Desktop\C#\sumof2num\sumof2num\obj\Debug\net6.0\sumof2num.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shadan\Desktop\C#\sumof2num\sumof2num\obj\Debug\net6.0\sumof2num.AssemblyInfoInputs.cache
+C:\Users\shadan\Desktop\C#\sumof2num\sumof2num\obj\Debug\net6.0\sumof2num.AssemblyInfo.cs
+C:\Users\shadan\Desktop\C#\sumof2num\sumof2num\obj\Debug\net6.0\sumof2num.csproj.CoreCompileInputs.cache
+C:\Users\shadan\Desktop\C#\sumof2num\sumof2num\bin\Debug\net6.0\sumof2num.exe
+C:\Users\shadan\Desktop\C#\sumof2num\sumof2num\bin\Debug\net6.0\sumof2num.deps.json
+C:\Users\shadan\Desktop\C#\sumof2num\sumof2num\bin\Debug\net6.0\sumof2num.runtimeconfig.json
+C:\Users\shadan\Desktop\C#\sumof2num\sumof2num\bin\Debug\net6.0\sumof2num.dll
+C:\Users\shadan\Desktop\C#\sumof2num\sumof2num\bin\Debug\net6.0\sumof2num.pdb
+C:\Users\shadan\Desktop\C#\sumof2num\sumof2num\obj\Debug\net6.0\sumof2num.dll
+C:\Users\shadan\Desktop\C#\sumof2num\sumof2num\obj\Debug\net6.0\refint\sumof2num.dll
+C:\Users\shadan\Desktop\C#\sumof2num\sumof2num\obj\Debug\net6.0\sumof2num.pdb
+C:\Users\shadan\Desktop\C#\sumof2num\sumof2num\obj\Debug\net6.0\sumof2num.genruntimeconfig.cache
+C:\Users\shadan\Desktop\C#\sumof2num\sumof2num\obj\Debug\net6.0\ref\sumof2num.dll

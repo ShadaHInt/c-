@@ -1,0 +1,15 @@
+C:\Users\shadan\Desktop\C#\qstn10new\qstn10new\obj\Debug\net6.0\qstn10new.csproj.AssemblyReference.cache
+C:\Users\shadan\Desktop\C#\qstn10new\qstn10new\obj\Debug\net6.0\qstn10new.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shadan\Desktop\C#\qstn10new\qstn10new\obj\Debug\net6.0\qstn10new.AssemblyInfoInputs.cache
+C:\Users\shadan\Desktop\C#\qstn10new\qstn10new\obj\Debug\net6.0\qstn10new.AssemblyInfo.cs
+C:\Users\shadan\Desktop\C#\qstn10new\qstn10new\obj\Debug\net6.0\qstn10new.csproj.CoreCompileInputs.cache
+C:\Users\shadan\Desktop\C#\qstn10new\qstn10new\bin\Debug\net6.0\qstn10new.exe
+C:\Users\shadan\Desktop\C#\qstn10new\qstn10new\bin\Debug\net6.0\qstn10new.deps.json
+C:\Users\shadan\Desktop\C#\qstn10new\qstn10new\bin\Debug\net6.0\qstn10new.runtimeconfig.json
+C:\Users\shadan\Desktop\C#\qstn10new\qstn10new\bin\Debug\net6.0\qstn10new.dll
+C:\Users\shadan\Desktop\C#\qstn10new\qstn10new\bin\Debug\net6.0\qstn10new.pdb
+C:\Users\shadan\Desktop\C#\qstn10new\qstn10new\obj\Debug\net6.0\qstn10new.dll
+C:\Users\shadan\Desktop\C#\qstn10new\qstn10new\obj\Debug\net6.0\refint\qstn10new.dll
+C:\Users\shadan\Desktop\C#\qstn10new\qstn10new\obj\Debug\net6.0\qstn10new.pdb
+C:\Users\shadan\Desktop\C#\qstn10new\qstn10new\obj\Debug\net6.0\qstn10new.genruntimeconfig.cache
+C:\Users\shadan\Desktop\C#\qstn10new\qstn10new\obj\Debug\net6.0\ref\qstn10new.dll

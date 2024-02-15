@@ -1,0 +1,12 @@
+C:\Users\shadan\Desktop\C#\Demo22\Demo22\bin\Debug\net6.0\Demo22.deps.json
+C:\Users\shadan\Desktop\C#\Demo22\Demo22\bin\Debug\net6.0\Demo22.dll
+C:\Users\shadan\Desktop\C#\Demo22\Demo22\bin\Debug\net6.0\Demo22.pdb
+C:\Users\shadan\Desktop\C#\Demo22\Demo22\obj\Debug\net6.0\Demo22.csproj.AssemblyReference.cache
+C:\Users\shadan\Desktop\C#\Demo22\Demo22\obj\Debug\net6.0\Demo22.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shadan\Desktop\C#\Demo22\Demo22\obj\Debug\net6.0\Demo22.AssemblyInfoInputs.cache
+C:\Users\shadan\Desktop\C#\Demo22\Demo22\obj\Debug\net6.0\Demo22.AssemblyInfo.cs
+C:\Users\shadan\Desktop\C#\Demo22\Demo22\obj\Debug\net6.0\Demo22.csproj.CoreCompileInputs.cache
+C:\Users\shadan\Desktop\C#\Demo22\Demo22\obj\Debug\net6.0\Demo22.dll
+C:\Users\shadan\Desktop\C#\Demo22\Demo22\obj\Debug\net6.0\refint\Demo22.dll
+C:\Users\shadan\Desktop\C#\Demo22\Demo22\obj\Debug\net6.0\Demo22.pdb
+C:\Users\shadan\Desktop\C#\Demo22\Demo22\obj\Debug\net6.0\ref\Demo22.dll

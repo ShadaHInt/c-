@@ -1,0 +1,17 @@
+C:\Users\shadan\Desktop\C#\Scenarios\jsontest\jsontest\obj\Debug\net6.0\jsontest.csproj.AssemblyReference.cache
+C:\Users\shadan\Desktop\C#\Scenarios\jsontest\jsontest\obj\Debug\net6.0\jsontest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shadan\Desktop\C#\Scenarios\jsontest\jsontest\obj\Debug\net6.0\jsontest.AssemblyInfoInputs.cache
+C:\Users\shadan\Desktop\C#\Scenarios\jsontest\jsontest\obj\Debug\net6.0\jsontest.AssemblyInfo.cs
+C:\Users\shadan\Desktop\C#\Scenarios\jsontest\jsontest\obj\Debug\net6.0\jsontest.csproj.CoreCompileInputs.cache
+C:\Users\shadan\Desktop\C#\Scenarios\jsontest\jsontest\bin\Debug\net6.0\jsontest.exe
+C:\Users\shadan\Desktop\C#\Scenarios\jsontest\jsontest\bin\Debug\net6.0\jsontest.deps.json
+C:\Users\shadan\Desktop\C#\Scenarios\jsontest\jsontest\bin\Debug\net6.0\jsontest.runtimeconfig.json
+C:\Users\shadan\Desktop\C#\Scenarios\jsontest\jsontest\bin\Debug\net6.0\jsontest.dll
+C:\Users\shadan\Desktop\C#\Scenarios\jsontest\jsontest\bin\Debug\net6.0\jsontest.pdb
+C:\Users\shadan\Desktop\C#\Scenarios\jsontest\jsontest\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\shadan\Desktop\C#\Scenarios\jsontest\jsontest\obj\Debug\net6.0\jsontest.csproj.CopyComplete
+C:\Users\shadan\Desktop\C#\Scenarios\jsontest\jsontest\obj\Debug\net6.0\jsontest.dll
+C:\Users\shadan\Desktop\C#\Scenarios\jsontest\jsontest\obj\Debug\net6.0\refint\jsontest.dll
+C:\Users\shadan\Desktop\C#\Scenarios\jsontest\jsontest\obj\Debug\net6.0\jsontest.pdb
+C:\Users\shadan\Desktop\C#\Scenarios\jsontest\jsontest\obj\Debug\net6.0\jsontest.genruntimeconfig.cache
+C:\Users\shadan\Desktop\C#\Scenarios\jsontest\jsontest\obj\Debug\net6.0\ref\jsontest.dll

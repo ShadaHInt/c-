@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Nykaa Web Automation</title>
+  <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@3da944e596e81f10ac6c1042c792af8a5a741023/commons/img/logo.png">
+  <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@3da944e596e81f10ac6c1042c792af8a5a741023/commons/img/logo.png">
+  <link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@8539670db814bf19a0ddbe9a6d19058aea0cf981/spark/css/spark-style.css" rel="stylesheet" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <style> </style>
+</head>
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<body class="spa bdd-report dark">
+    <div class="app header-dark side-nav-folded">
+        <div class="layout">
+            <div class="header navbar">
+    <div class="header-container">
+        <div class="nav-logo">
+          <a href="index.html">
+            <div class="logo logo-dark" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+            <div class="logo logo-white" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+          </a>
+        </div>
+        <ul class="nav-left">
+          <li>
+            <a class="sidenav-fold-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+            <a class="sidenav-expand-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+          </li>
+          <li class="search-box">
+            <a class="search-toggle" href="javascript:void(0);">
+              <i class="search-icon fa fa-search"></i>
+              <i class="search-icon-close fa fa-close"></i>
+            </a>
+          </li>
+          <li class="search-input">
+            <input id="search-tests" class="form-control" type="text" placeholder="Type to search...">
+          </li>
+        </ul>
+        <ul class="nav-right">
+          <li class="m-r-10">
+            <a href="#">
+              <span class="badge badge-primary">Nykaa</span>
+            </a>
+          </li>
+            <li class="m-r-10">
+                <a href="#">
+                    <span class="badge badge-primary">27-09-2022 23:43:50</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+            <div class="side-nav side-nav-folded">
+  <div class="side-nav-inner">
+    <ul class="side-nav-menu scrollable">
+      <li class="nav-item dropdown" onclick="toggleView('test-view')">
+        <a id="nav-test" class="dropdown-toggle" href="index.html">
+          <span class="icon-holder">
+            <i class="fa fa-align-left"></i>
+          </span>
+          <span class="title">Tests</span>
+        </a>
+      </li>
+      <li class="nav-item dropdown" onclick="toggleView('tag-view')">
+        <a id="nav-tag" class="dropdown-toggle" href="tag.html">
+          <span class="icon-holder">
+            <i class="fa fa-tag"></i>
+          </span>
+          <span class="title">Tags</span>
+        </a>
+      </li>
+            <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+        <a id="nav-dashboard" class="dropdown-toggle" href="dashboard.html">
+          <span class="icon-holder">
+            <i class="fa fa-bar-chart"></i>
+          </span>
+          <span class="title">Dashboard</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="side-nav-controls">
+    <ul>
+      <li>
+        <a href="#" class="lightsout" style="color:#8a8a8a;">
+          <i class="fa fa-desktop"></i>"</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+            <div class="page-container">
+                <div class="main-content">
+                    <div class="test-wrapper row test-view">
+    <div class="test-list">
+        <div class="test-list-tools">
+            <ul class="tools pull-left">
+                <li>
+                    <a href="">
+                        <span class="font-size-14">Tests</span>
+                    </a>
+                </li> 
+            </ul>
+            <ul class="tools text-right">
+				<li class="user-profile dropdown dropdown-animated scale-left">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						<i class="fa fa-exclamation-circle"></i>
+					</a>
+					<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a status="pass" class="dropdown-item" href="#"><span>Pass</span><span class="status success pull-right"></span></a>						<a status="fail" class="dropdown-item" href="#"><span>Fail</span><span class="status danger pull-right"></span></a>																														<div class="dropdown-divider"></div>
+						<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+					</ul>
+				</li>
+                <li class="user-profile dropdown dropdown-animated scale-left">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						<i class="fa fa-user"></i>
+					</a>
+					<ul id="author-toggle" class="dropdown-menu dropdown-md p-v-0">
+							<a class="dropdown-item" href="#">Aswathy</a>
+					</ul>
+                </li>
+								<li class="user-profile dropdown dropdown-animated scale-left">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						<i class="fa fa-tag"></i>
+					</a>
+					<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+							<a class="dropdown-item" href="#">Features</a>
+							<a class="dropdown-item" href="#">Scenarios</a>
+							<a class="dropdown-item" href="#">Steps</a>
+					</ul>
+                </li>
+				            </ul>
+        </div>
+        <div class="test-list-wrapper scrollable">
+            <ul class="test-list-item">
+					<li class="test-item" status="fail" author="" device="" tag="Features" test-id="1"> 
+						<div class="status-avatar fail-bg">
+							<i class="fa fa-times text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">Home Page Test</p> 
+								<p class="duration text-sm">0h:0m:6s+564ms</p> 
+								<span class="datetime">23:43:50 PM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-fail">Home Page Test</h5>
+										<span class='badge badge-success'>27-09-2022 23:43:50</span>
+										<span class='badge badge-danger'>27-09-2022 23:43:57</span>
+										<span class='badge badge-default'>0h:0m:6s+564ms</span>
+									</div>
+									<div class="m-t-15">
+		                                	<div class="attributes">
+						<span class="badge badge-pill badge-default"><i class="fa fa-tag"></i> Features</span> 	
+			</div>
+
+									</div>
+																	</div>
+							</div>
+
+<div class="accordion mt-4">
+	<div class="card">
+		<div class="card-header" role="tab">
+			<div class="card-title pl-3">
+				<div class="node">Scenario: Homepage test</div>
+				<div class="status-avatar float-left pass-bg">
+					<i class="fa fa-check text-white"></i>
+				</div>
+			</div>
+		</div>
+				<div class="collapse">
+                    <div class="card-body">
+                                                    <div class="d-flex align-items-center justify-content-start given" title="">
+                                <span class="alert-icon pass-bg">
+                                    <i class="fa fa-check text-white"></i>
+                                </span>
+                                <span>Given I navigated to Nykaa</span>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-start when" title="">
+                                <span class="alert-icon pass-bg">
+                                    <i class="fa fa-check text-white"></i>
+                                </span>
+                                <span>When I verify the whether navigated to the correct url</span>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-start then" title="">
+                                <span class="alert-icon pass-bg">
+                                    <i class="fa fa-check text-white"></i>
+                                </span>
+                                <span>Then I must view the logo</span>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-start when" title="">
+                                <span class="alert-icon pass-bg">
+                                    <i class="fa fa-check text-white"></i>
+                                </span>
+                                <span>When I click on Account icon</span>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-start then" title="">
+                                <span class="alert-icon pass-bg">
+                                    <i class="fa fa-check text-white"></i>
+                                </span>
+                                <span>Then click onthe Phone/email button</span>
+                            </div>
+                    </div>
+				</div>
+	</div>
+	<div class="card">
+		<div class="card-header" role="tab">
+			<div class="card-title pl-3">
+				<div class="node">Scenario: Validations</div>
+				<div class="status-avatar float-left fail-bg">
+					<i class="fa fa-times text-white"></i>
+				</div>
+			</div>
+		</div>
+				<div class="collapse">
+                    <div class="card-body">
+                                                    <div class="d-flex align-items-center justify-content-start given" title="">
+                                <span class="alert-icon pass-bg">
+                                    <i class="fa fa-check text-white"></i>
+                                </span>
+                                <span>Given I am in login screen</span>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-start when" title="">
+                                <span class="alert-icon pass-bg">
+                                    <i class="fa fa-check text-white"></i>
+                                </span>
+                                <span>When I enter the invalid phone number</span>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-start when" title="">
+                                <span class="alert-icon pass-bg">
+                                    <i class="fa fa-check text-white"></i>
+                                </span>
+                                <span>When I click on the Proceed button</span>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-start then" title="">
+                                <span class="alert-icon fail-bg">
+                                    <i class="fa fa-times text-white"></i>
+                                </span>
+                                <span>Then I must see  validation 'Enter a valid mobile number'</span>
+                            </div>
+			<div class="details">Assert.AreEqual failed. Expected:<ENTER A VALID MOBILE NUMBER>. Actual:<ENTER A VALID EMAIL ADDRESS>.</div>
+			<span class="badge badge-primary"><a href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB4AAAANrCAYAAACnboWUAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3X+QV/Vh7/+XIh/FXYOQEGRwJf4gguiGKtcuxkCuASdfcbyS8UqaK2kiMVz0cjVa+WqkprEYrdYYhhhKjeYHNinGyVrHNWnXOKIWiAVjMCgW1OKGQb5GVmQXwyeufv/YBRZYcEHgo4fHY4bxw/m8zznv815mdHh6zjlow4YN7wQAAAAAAACAD7yDKz0BAAAAAAAAAPYOARgAAAAAAACgIARgAAAAAAAAgIIQgAEAAAAAAAAKQgAGAAAAAAAAKAgBGAAAAAAAAKAgBGAAAAAAAACAghCAAQAAAAAAAApCAAYAAAAAAAAoCAEYAAAAAAAAoCAEYAAAAAAAAICCEIABAAAAAAAACkIABgAAAAAAACgIARgAAAAAAACgIARgAAAAAAAAgIIQgAEAAAAAAAAKQgAGAAAAAAAAKAgBGAAAAAAAAKAgBGAAAAAAAACAghCAAQAAAAAAAApCAAYAAAAAAAAoCAEYAAAAAAAAoCAEYAAAAAAAAICCEIABAAAAAAAACkIABgAAAAAAACgIARgAAAAAAACgIARgAAAAAAAAgIIQgAEAAAAAAAAKQgAGAAAAAAAAKAgBGAAAAAAAAKAgBGAAAAAAAACAghCAAQAAAAAAAApCAAYAAAAAAAAoCAEYAAAAAAAAoCAEYAAAAAAAAICCEIABAAAAAAAACkIABgAAAAAAACgIARgAAAAAAACgIARgAAAAAAAAgIIQgAEAAAAAAAAKQgAGAAAAAAAAKAgBGAAAAAAAAKAgBGAAAAAAAACAghCAAQAAAAAAAApCAAYAAAAAAAAoCAEYAAAAAAAAoCAEYAAAAAAAAICCEIABAAAAAAAACkIABgAAAAAAACgIARgAAAAAAACgIARgAAAAAAAAgIIQgAEAAAAAAAAKQgAGAAAAAAAAKAgBGAAAAAAAAKAgBGAAAAAAAACAghCAAQAAAAAAAApCAAYAAAAAAAAoCAEYAAAAAAAAoCAEYAAAAAAAAICCEIABAAAAAAAACkIABgAAAAAAACgIARgAAAAAAACgIARgAAAAAAAAgIIQgAEAAAAAAAAKQgAGAAAAAAAAKAgBGAAAAAAAAKAgBGAAAAAAAACAghCAAQAAAAAAAApCAAYAAAAAAAAoCAEYAAAAAAAAoCAEYAAAAAAAAICCEIABAAAAAAAACkIABgAAAAAAACgIARgAAAAAAACgIARgAAAAAAAAgIIQgAEAAAAAAAAKQgAGAAAAAAAAKAgBGAAAAAAAAKAgBGAAAAAAAACAgjik0hMAAAB2bdOmTdm0aVPK5XLeeuuttLW15e233670tAA4ABx88MHp0aNHDjnkkJRKpRx66KE59NBDKz0tAABgFwRgAAB4H3rrrbfS0tKSjRs35uCDD86HPvShHHnkkenRo8eWXwcddFClpwlAgb3zzjtpa2vb8qulpSXNzc15++23c/jhh6e6ujqHHOKvlgAA4P3moA0bNrxT6UkAAADt2tra8sYbb6SlpSVHHnlkjjzyyPTq1avS0wKALTZu3JjXX38969evT3V1dT70oQ+lR48elZ4WAADQQQAGAID3idbW1rz++uupqqrKRz/60ZRKpUpPCQB2atOmTXn11VfT2tqaI488MlVVVZWeEgAAEAEYAADeF5qbm/PHP/4xRx99tDt+AfhA2bhxY1avXp3DDjssffr0qfR0AADggCcAAwBAhf3hD39IktTU1HiEJgAfSG1tbfn973+fd955Jx/5yEcqPR0AADigCcAAAFBBf/jDH3LooYdmwIABlZ4KALxna9asyaZNm0RgAACooIMrPQEAADhQNTc356CDDhJ/ASiMAQMG5OCDD05zc3OlpwIAAAcsARgAACqgtbU15XI5NTU1lZ4KAOxVRx99dDZt2pTW1tZKTwUAAA5IAjAAAOxnbW1tef311zNw4MAcfLD/JAegWA4++OAMHDgwr7/+etra2io9HQAAOOD42yYAANjP3njjjVRVVeWwww6r9FQAYJ/o1atXqqqq8sYbb1R6KgAAcMARgAEAYD9666230tLSkv79+1d6KgCwT330ox9NS0tL3nrrrUpPBQAADigCMAAA7EctLS3p06dPevbsWempAMA+VSqV0qdPn7S0tFR6KgAAcEARgAEAYD/auHFjevfuXelpAMB+0bt372zcuLHS0wAAgAOKAAwAAPvJpk2bkrS/FxEADgSb/523+d+BAADAvicAAwDAfrJp06YcccQRlZ4GAOxXRxxxhAAMAAD7kQAMAAD7SblcdvcvAAecww47LOVyudLTAACAA4YADAAA+8lbb72Vnj17VnoaALBf9ezZM2+99Val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EIABAAAAAAAASgjAAAAAAAAAACUEYAAAAAAAAIASAjAAAAAAAABACQEYAAAAAAAAoIQADAAAAAAAAFBCAAYAAAAAAAAoIQADAAAAAAAAlBCAAQAAAAAAAEoIwAAAAAAAAAAlBGAAAAAAAACAEgIwAAAAAAAAQAkBGAAAAAAAAKCEAAwAAAAAAABQQgAGAAAAAAAAKCEAAwAAAAAAAJQQgAEAAAAAAABKCMAAAAAAAAAAJQRgAAAAAAAAgBICMAAAAAAAAEAJARgAAAAAAACghAAMAAAAAAAAUEIABgAAAAAAACghAAMAAAAAAACUEIABAAAAAAAASgjAAHABGOwAAAu7SURBVAAAAAAAACUEYAAAAAAAAIASAjAAAAAAAABACQEYAAAAAAAAoIQADAAAAAAAAFBCAAYAAAAAAAAoIQADAAAAAAAAlBCAAQAAAAAAAEoIwAAAAAAAAAAlBGAAAAAAAACAEgIwAAAAAAAAQAkBGAAAAAAAAKCEAAwAAAAAAABQQgAGAAAAAAAAKCEAAwAAAAAAAJQQgAEAAAAAAABKCMAAAAAAAAAAJQRgAAAAAAAAgBICMAAAAAAAAEAJARgAAAAAAACghAAMAAAAAAAAUEIABgAAAAAAACghAAMAAAAAAACUEIABAAAAAAAASgjAAAAAAAAAACUEYAAAAAAAAIASAjAAAAAAAABACQEYAAAAAAAAoIQADAAAAAAAAFBCAAYAAAAAAAAoIQADAAAAAAAAlBCAAQAAAAAAAEoIwAAAAAAAAAAlBGAAAAAAAACAEgIwAAAAAAAAQAkBGAAAAAAAAKCEAAwAAAAAAABQQgAGAAAAAAAAKCEAAwAAAAAAAJQQgAEAAAAAAABKCMAAAAAAAAAAJQRgAAAAAAAAgBICMAAAAAAAAEAJARgAAAAAAACghAAMAAAAAAAAUEIABgAAAAAAACghAAMAAAAAAACUEIABAAAAAAAASgjAAAAAAAAAACUEYAAAAAAAAIASAjAAAAAAAABACQEYAAAAAAAAoIQADAAAAAAAAFBCAAYAAAAAAAAoIQADAAAAAAAAlBCAAQAAAAAAAEoIwAAAAAAAAAAlBGAAAAAAAACAEgIwAAAAAAAAQAkBGAAAAAAAAKCEAAwAAAAAAABQQgAGAAAAAAAAKCEAAwAAAAAAAJQQgAEAAAAAAABKCMAAAAAAAAAAJQRgAAAAAAAAgBICMAAAAAAAAEAJARgAAAAAAACghAAMAAAAAAAAUEIABgAAAAAAACghAAMAAAAAAACUEIABAAAAAAAASgjAAAAAAAAAACUEYAAAAAAAAIASAjAAAAAAAABACQEYAAAAAAAAoIQADAAAAAAAAFBCAAYAAAAAAAAoIQADAAAAAAAAlBCAAQAAAAAAAEoIwAAAAAAAAAAlBGAAAAAAAACAEgIwAAAAAAAAQAkBGAAAAAAAAKCEAAwAAAAAAABQQgAGAAAAAAAAKCEAAwAAAAAAAJQQgAEAAAAAAABKCMAAAAAAAAAAJQRgAAAAAAAAgBICMAAAAAAAAEAJARgAAAAAAACghAAMAAAAAAAAUEIABgAAAAAAACghAAMAAAAAAACUEIABAAAAAAAASgjAAAAAAAAAACUEYAAAAAAAAIASAjAAAAAAAABACQEYAAAAAAAAoIQADAAAAAAAAFBCAAYAAAAAAAAoIQADAAAAAAAAlBCAAQAAAAAAAEoIwAAAAAAAAAAlBGAAAAAAAACAEgIwAAAAAAAAQAkBGAAAAAAAAKCEAAwAAAAAAABQQgAGAAAAAAAAKCEAAwAAAAAAAJQQgAEAAAAAAABKCMAAAAAAAAAAJQRgAAAAAAAAgBICMAAAAAAAAEAJARgAAAAAAACghAAMAAAAAAAAUEIABgAAAAAAACghAAMAAAAAAACUEIABAAAAAAAASgjAAAAAAAAAACUEYAAAAAAAAIASAjAAAAAAAABACQEYAAAAAAAAoIQADAAAAAAAAFBCAAYAAAAAAAAoIQADAAAAAAAAlBCAAQAAAAAAAEoIwAAAAAAAAAAlBGAAAAAAAACAEgIwAAAAAAAAQAkBGAAAAAAAAKCEAAwAAAAAAABQQgAGAAAAAAAAKCEAAwAAAAAAAJQQgAEAAAAAAABKCMAAAAAAAAAAJQRgAAAAAAAAgBICMAAAAAAAAEAJARgAAAAAAACghAAMAAAAAAAAUEIABgAAAAAAACghAAMAAAAAAACUEIABAAAAAAAASgjAAAAAAAAAACUEYAAAAAAAAIASAjAAAAAAAABACQEYAAAAAAAAoIQADAAAAAAAAFBCAAYAAAAAAAAoIQADAAAAAAAAlBCAAQAAAAAAAEoIwAAAAAAAAAAlBGAAAAAAAACAEgIwAAAAAAAAQAkBGAAAAAAAAKCEAAwAAAAAAABQQgAGAAAAAAAAKCEAAwAAAAAAAJQQgAEAAAAAAABKCMAAAAAAAAAAJQRgAAAAAAAAgBICMAAAAAAAAEAJARgAAAAAAACghAAMAAAAAAAAUEIABgAAAAAAACghAAMAAAAAAACUEIABAAAAAAAASgjAAAAAAAAAACUEYAAAAAAAAIASAjAAAAAAAABACQEYAAAAAAAAoIQADAAAAAAAAFBCAAYAAAAAAAAoIQADAAAAAAAAlBCAAQAAAAAAAEoIwAAAAAAAAAAlBGAAAAAAAACAEgIwAAAAAAAAQAkBGAAAAAAAAKCEAAwAAAAAAABQQgAGAAAAAAAAKCEAAwAAAAAAAJQQgAEAAAAAAABKCMAAAAAAAAAAJQRgAAAAAAAAgBICMAAAAAAAAEAJARgAAAAAAACghAAMAAAAAAAAUEIABgAAAAAAACghAAMAAAAAAACUEIABAAAAAAAASgjAAAAAAAAAACUEYAAAAAAAAIASAjAAAAAAAABACQEYAAAAAAAAoIQADAAAAAAAAFBCAAYAAAAAAAAoIQADAAAAAAAAlBCAAQAAAAAAAEoIwAAAAAAAAAAlBGAAAAAAAACAEgIwAAAAAAAAQAkBGAAAAAAAAKCEAAwAAAAAAABQQgAGAAAAAAAAKCEAAwAAAAAAAJQQgAEAAAAAAABKCMAAAAAAAAAAJQRgAAAAAAAAgBICMAAAAAAAAEAJARgAAAAAAACghAAMAAAAAAAAUEIABgAAAAAAACghAAMAAAAAAACUEIABAAAAAAAASgjAAAAAAAAAACUEYAAAAAAAAIASAjAAAAAAAABACQEYAAAAAAAAoIQADAAAAAAAAFBCAAYAAAAAAAAoIQADAAAAAAAAlBCAAQAAAAAA/q+dOzgBEAiCIIhg/uldIBuABuFjoa2KYP4NAxAhAAMAAAAAAABECMAAAAAAAAAAEQIwAAAAAAAAQIQADAAAAAAAABAhAAMAAAAAAABECMAAAAAAAAAAEQIwAAAAAAAAQIQADAAAAAAAABAhAAMAAAAAAABECMAAAAAAAAAAEQIwAAAAAAAAQIQADAAAAAAAABAhAAMAAAAAAABECMAAAAAAAAAAEQIwAAAAAAAAQIQADAAAAAAAABAhAAMAAAAAAABECMAAAAAAAAAAEQIwAAAAAAAAQIQADAAAAAAAABAhAAMAAAAAAABECMAAAAAAAAAAEQIwAAAAAAAAQIQADAAAAAAAABAhAAMAAAAAAABECMAAAAAAAAAAEQIwAAAAAAAAQIQADAAAAAAAABAhAAMAAAAAAABECMAAAAAAAAAAEQIwAAAAAAAAQMS9PQAAAP7knLM9AQAAAICwa2ae7REAAAAAAAAAfOcCGgAAAAAAACBCAAYAAAAAAACIEIABAAAAAAAAIgRgAAAAAAAAgAgBGAAAAAAAACBCAAYAAAAAAACIEIABAAAAAAAAIgRgAAAAAAAAgAgBGAAAAAAAACBCAAYAAAAAAACIEIABAAAAAAAAIgRgAAAAAAAAgAgBGAAAAAAAACBCAAYAAAAAAACIEIABAAAAAAAAIgRgAAAAAAAAgAgBGAAAAAAAACBCAAYAAAAAAACIEIABAAAAAAAAIgRgAAAAAAAAgAgBGAAAAAAAACBCAAYAAAAAAACIEIABAAAAAAAAIgRgAAAAAAAAgAgBGAAAAAAAACBCAAYAAAAAAACIEIABAAAAAAAAIgRgAAAAAAAAgAgBGAAAAAAAACBCAAYAAAAAAACIEIABAAAAAAAAIgRgAAAAAAAAgAgBGAAAAAAAACBCAAYAAAAAAACIEIABAAAAAAAAIgRgAAAAAAAAgAgBGAAAAAAAACBCAAYAAAAAAACIEIABAAAAAAAAIgRgAAAAAAAAgAgBGAAAAAAAACBCAAYAAAAAAACIEIABAAAAAAAAIgRgAAAAAAAAgIgXvz47Aa/1WiUAAAAASUVORK5CYII=' data-featherlight='image'><span class='label grey badge white-text text-white'>base64-img</span></a></span>
+                    </div>
+				</div>
+	</div>
+</div>
+						</div>
+					</li>
+            </ul>    
+        </div>
+    </div>
+    <div class="test-content scrollable">
+        <div class="test-content-tools">
+            <ul>
+                <li>
+                    <a class="back-to-test" href="javascript:void(0)">
+                        <i class="fa fa-arrow-left"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="test-content-detail">
+            <div class="detail-body"></div>
+        </div>
+    </div>
+</div>
+<div class="test-wrapper row tag-view attributes-view">
+    <div class="test-list">
+        <div class="test-list-tools">
+            <ul class="tools pull-left">
+                <li>
+                    <a href="">
+                        <span class="font-size-14">Tags</span>
+                    </a>
+                </li> 
+            </ul>
+            <ul class="tools text-right">
+                <li>
+                    <a href="#">
+                        <span class="badge badge-primary">3</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="test-list-wrapper scrollable">
+            <ul class="test-list-item">
+
+<li class="test-item">
+  <div class="open-test">
+    <div class="test-detail">
+      <p class="name">Features</p>
+      <p class="duration text-sm">1 tests</p>
+      <span class="datetime">
+         <span class='badge badge-danger'>1</span>                       </span>
+    </div>
+  </div>
+  <div class="test-contents d-none">
+    <div class="info">
+      <h4>Features</h4>
+       <span class='badge badge-danger'>1 failed</span>                 </div>
+    <table class='table table-sm mt-4'>
+      <thead>
+        <tr>
+          <th class="status-col">Status</th>
+          <th class="timestamp-col">Timestamp</th>
+          <th>TestName</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <div class='status-avatar fail-bg'>
+              <i class="fa fa-times text-white"></i>
+            </div>
+          </td>
+          <td>23:43:50</td>
+          <td class='linked' test-id='1' root-id="1">
+            <a href="#">Home Page Test</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</li>
+<li class="test-item">
+  <div class="open-test">
+    <div class="test-detail">
+      <p class="name">Scenarios</p>
+      <p class="duration text-sm">2 tests</p>
+      <span class="datetime">
+ <span class='badge badge-success'>1</span>          <span class='badge badge-danger'>1</span>                       </span>
+    </div>
+  </div>
+  <div class="test-contents d-none">
+    <div class="info">
+      <h4>Scenarios</h4>
+ <span class='badge badge-success'>1 passed</span>        <span class='badge badge-danger'>1 failed</span>                 </div>
+    <table class='table table-sm mt-4'>
+      <thead>
+        <tr>
+          <th class="status-col">Status</th>
+          <th class="timestamp-col">Timestamp</th>
+          <th>TestName</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <div class='status-avatar pass-bg'>
+              <i class="fa fa-check text-white"></i>
+            </div>
+          </td>
+          <td>23:43:50</td>
+          <td class='linked' test-id='2' root-id="1">
+            <a href="#">Home Page Test.Homepage test</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class='status-avatar fail-bg'>
+              <i class="fa fa-times text-white"></i>
+            </div>
+          </td>
+          <td>23:43:56</td>
+          <td class='linked' test-id='8' root-id="1">
+            <a href="#">Home Page Test.Validations</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</li>
+<li class="test-item">
+  <div class="open-test">
+    <div class="test-detail">
+      <p class="name">Steps</p>
+      <p class="duration text-sm">9 tests</p>
+      <span class="datetime">
+ <span class='badge badge-success'>8</span>          <span class='badge badge-danger'>1</span>                       </span>
+    </div>
+  </div>
+  <div class="test-contents d-none">
+    <div class="info">
+      <h4>Steps</h4>
+ <span class='badge badge-success'>8 passed</span>        <span class='badge badge-danger'>1 failed</span>                 </div>
+    <table class='table table-sm mt-4'>
+      <thead>
+        <tr>
+          <th class="status-col">Status</th>
+          <th class="timestamp-col">Timestamp</th>
+          <th>TestName</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <div class='status-avatar pass-bg'>
+              <i class="fa fa-check text-white"></i>
+            </div>
+          </td>
+          <td>23:43:51</td>
+          <td class='linked' test-id='3' root-id="1">
+            <a href="#">Home Page Test.Homepage test.I navigated to Nykaa</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class='status-avatar pass-bg'>
+              <i class="fa fa-check text-white"></i>
+            </div>
+          </td>
+          <td>23:43:51</td>
+          <td class='linked' test-id='4' root-id="1">
+            <a href="#">Home Page Test.Homepage test.I verify the whether navigated to the correct url</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class='status-avatar pass-bg'>
+              <i class="fa fa-check text-white"></i>
+            </div>
+          </td>
+          <td>23:43:51</td>
+          <td class='linked' test-id='5' root-id="1">
+            <a href="#">Home Page Test.Homepage test.I must view the logo</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class='status-avatar pass-bg'>
+              <i class="fa fa-check text-white"></i>
+            </div>
+          </td>
+          <td>23:43:56</td>
+          <td class='linked' test-id='6' root-id="1">
+            <a href="#">Home Page Test.Homepage test.I click on Account icon</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class='status-avatar pass-bg'>
+              <i class="fa fa-check text-white"></i>
+            </div>
+          </td>
+          <td>23:43:56</td>
+          <td class='linked' test-id='7' root-id="1">
+            <a href="#">Home Page Test.Homepage test.click onthe Phone/email button</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class='status-avatar pass-bg'>
+              <i class="fa fa-check text-white"></i>
+            </div>
+          </td>
+          <td>23:43:56</td>
+          <td class='linked' test-id='9' root-id="1">
+            <a href="#">Home Page Test.Validations.I am in login screen</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class='status-avatar pass-bg'>
+              <i class="fa fa-check text-white"></i>
+            </div>
+          </td>
+          <td>23:43:56</td>
+          <td class='linked' test-id='10' root-id="1">
+            <a href="#">Home Page Test.Validations.I enter the invalid phone number</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class='status-avatar pass-bg'>
+              <i class="fa fa-check text-white"></i>
+            </div>
+          </td>
+          <td>23:43:56</td>
+          <td class='linked' test-id='11' root-id="1">
+            <a href="#">Home Page Test.Validations.I click on the Proceed button</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class='status-avatar fail-bg'>
+              <i class="fa fa-times text-white"></i>
+            </div>
+          </td>
+          <td>23:43:56</td>
+          <td class='linked' test-id='12' root-id="1">
+            <a href="#">Home Page Test.Validations.I must see  validation 'Enter a valid mobile number'</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</li>            </ul>    
+        </div>
+    </div>
+    <div class="test-content scrollable">
+        <div class="test-content-tools">
+            <ul>
+                <li>
+                    <a class="back-to-test" href="javascript:void(0)">
+                        <i class="fa fa-arrow-left"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="test-content-detail">
+            <div class="detail-body"></div>
+        </div>
+    </div>
+</div>										<div class="container-fluid p-4 dashboard-view">
+	<div class="row">
+		<div class="col-sm-12 col-md-4">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Features</h6>
+				</div>
+				<div class="card-body">
+	                <div class="">
+	                    <canvas id='parent-analysis' width='115' height='90'></canvas>
+	                </div>
+	            </div>
+	            <div class="card-footer">
+	                <div><small data-tooltip='0%'>
+	                    <b>0</b> features passed
+                    </small></div>
+	                <div>
+	                    <small data-tooltip='100%'><b>1</b> features failed, 
+	                    <b data-tooltip='0%'>0</b> others
+	                    </small>
+                    </div>
+	            </div>
+			</div>
+		</div>
+		<div class="col-sm-12 col-md-4">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Scenarios</h6>
+				</div>
+				<div class="card-body">
+	                <div class="">
+	                    <canvas id='child-analysis' width='115' height='90'></canvas>
+	                </div>
+	            </div>
+	            <div class="card-footer">
+	                <div><small data-tooltip='50%'><b>1</b> scenarios passed</small></div>
+	                <div>
+	                    <small data-tooltip='50%'><b>1</b> scenarios failed, 
+	                    <b data-tooltip='0%'>0</b> others
+	                    </small>
+                    </div>
+	            </div>
+			</div>
+		</div>
+				<div class="col-sm-12 col-md-4">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Steps</h6>
+				</div>
+				<div class="card-body">
+	                <div class="">
+	                    <canvas id='grandchild-analysis' width='115' height='90'></canvas>
+	                </div>
+	            </div>
+	            <div class="card-footer">
+	                <div><small data-tooltip='88.88888888888889%'><b>8</b> steps passed</small></div>
+	                <div>
+	                    <small data-tooltip='11.11111111111111%'><b>1</b> steps failed, 
+	                    <b data-tooltip='0%'>0</b> others
+	                    </small>
+                    </div>
+	            </div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+	                <div class="media justify-content-between">
+						<div>
+							<h6 class="card-title">Features</h6>
+							<h2 class="font-size-28 font-weight-light">1</h2>
+							<span class="text-semibold text-success font-size-15">
+							<i class="ti-arrow-up font-size-11"></i> 
+								<span>0%</span>
+							</span>
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-align-left font-size-70 opacity-01"></i>
+						</div>
+					</div>
+	            </div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+	                <div class="media justify-content-between">
+						<div>
+							<h6 class="card-title">Scenarios</h6>
+							<h2 class="font-size-28 font-weight-light">2</h2>
+							<span class="text-semibold text-success font-size-15">
+							<i class="ti-arrow-up font-size-11"></i> 
+								<span>50%</span>
+							</span>
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-align-left font-size-70 opacity-01"></i>
+						</div>
+					</div>
+	            </div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+	                <div class="media justify-content-between">
+						<div>
+							<h6 class="card-title">Start</h6>
+							<h6 class="font-weight-light">27-09-2022 23:43:50</h6>
+							<span class="text-semibold text-success font-size-15">
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-clock-o font-size-70 text-success opacity-01"></i>
+						</div>
+					</div>
+	            </div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+	                <div class="media justify-content-between">
+						<div>
+							<h6 class="card-title">Duration</h6>
+							<h6 class="font-weight-light">00:00:06.6401283</h6>
+							<span class="text-semibold text-danger font-size-15">
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-clock-o font-size-70 text-danger opacity-01"></i>
+						</div>
+					</div>
+	            </div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Author</h6>
+				</div>
+				<div class="table-overflow">
+					<table class="table table-sm">
+						<thead>
+							<tr class="bg-gray">
+								<th>Name</th>
+								<th>Passed</th>
+								<th>Failed</th>
+								<th>Others</th>
+								<th>Passed %</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Aswathy</td>
+								<td>1</td>
+								<td>1</td>
+								<td>0</td>
+								<td>50%</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+				<div class="col-md-6">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Tags</h6>
+				</div>
+				<div class="table-overflow">
+					<table class="table table-sm">
+						<thead>
+							<tr class="bg-gray">
+								<th>Name</th>
+								<th>Passed</th>
+								<th>Failed</th>
+								<th>Others</th>
+								<th>Passed %</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Features</td>
+								<td>0</td>
+								<td>1</td>
+								<td>0</td>
+								<td>0%</td>
+							</tr>
+							<tr>
+								<td>Scenarios</td>
+								<td>1</td>
+								<td>1</td>
+								<td>0</td>
+								<td>50%</td>
+							</tr>
+							<tr>
+								<td>Steps</td>
+								<td>8</td>
+								<td>1</td>
+								<td>0</td>
+								<td>88.89%</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+					</div>
+</div>
+<script>
+	var statusGroup = {
+    parentCount: 1,
+		passParent: 0,
+		failParent: 1,
+		fatalParent: 0,
+		errorParent: 0,
+		warningParent: 0,
+		skipParent: 0,
+		exceptionsParent: 1,
+		childCount: 2,
+		passChild: 1,
+		failChild: 1,
+		fatalChild: 0,
+		errorChild: 0,
+		warningChild: 0,
+		skipChild: 0,
+		infoChild: 0,
+		debugChild: 0,
+		exceptionsChild: 1,
+		grandChildCount: 9,
+		passGrandChild: 8,
+		failGrandChild: 1,
+		fatalGrandChild: 0,
+		errorGrandChild: 0,
+		warningGrandChild: 0,
+		skipGrandChild: 0,
+		infoGrandChild: 0,
+		debugGrandChild: 0,
+		exceptionsGrandChild: 1,
+	};
+</script>
+
+                </div>
+            </div>
+        </div>
+    </div>
+	<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@cc89904c1a12065be1d08fc4994a258ef01b12bd/spark/js/scripts.js"></script>
+<script type='text/javascript'>
+	
+</script>
+</body>
+
+</html>

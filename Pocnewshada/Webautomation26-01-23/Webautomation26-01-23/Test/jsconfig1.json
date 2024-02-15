@@ -1,0 +1,27 @@
+{
+
+
+  //Valid input for creating account
+
+  "ValidData": [ "Shad", "xxx", "testingmedi123@gmail.com", "Test123#", "Test123#" ],
+
+  //Invalid input for creating account
+
+  "InvalidData": [ "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", "skdmdmdmmd", "ksjddnskk1233", "000000000", "mmmmmmmmmm" ],
+
+  //Valid iput for sign in
+  "SignV": [ "testingmedi123@gmail.com", "Test123#" ],
+
+
+  //Invalid input for sign in
+  "SignI": [ "123jmkl", "amkls" ],
+
+
+  //Search
+
+  "Search": [ "Volini", "11111111111111xxxxx2222" ],
+
+  //Payment
+  "Payment": [ "jknhhuuk", "kkuutf", "iygdss", "ahshh", "kannur", "123456", "4523698715" ]
+
+}

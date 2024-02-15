@@ -1,0 +1,15 @@
+C:\Users\shadan\Desktop\C#\jmet16-03-23\jmet16-03-23\bin\Debug\net6.0\jmet16-03-23.exe
+C:\Users\shadan\Desktop\C#\jmet16-03-23\jmet16-03-23\bin\Debug\net6.0\jmet16-03-23.deps.json
+C:\Users\shadan\Desktop\C#\jmet16-03-23\jmet16-03-23\bin\Debug\net6.0\jmet16-03-23.runtimeconfig.json
+C:\Users\shadan\Desktop\C#\jmet16-03-23\jmet16-03-23\bin\Debug\net6.0\jmet16-03-23.dll
+C:\Users\shadan\Desktop\C#\jmet16-03-23\jmet16-03-23\bin\Debug\net6.0\jmet16-03-23.pdb
+C:\Users\shadan\Desktop\C#\jmet16-03-23\jmet16-03-23\obj\Debug\net6.0\jmet16-03-23.csproj.AssemblyReference.cache
+C:\Users\shadan\Desktop\C#\jmet16-03-23\jmet16-03-23\obj\Debug\net6.0\jmet16-03-23.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shadan\Desktop\C#\jmet16-03-23\jmet16-03-23\obj\Debug\net6.0\jmet16-03-23.AssemblyInfoInputs.cache
+C:\Users\shadan\Desktop\C#\jmet16-03-23\jmet16-03-23\obj\Debug\net6.0\jmet16-03-23.AssemblyInfo.cs
+C:\Users\shadan\Desktop\C#\jmet16-03-23\jmet16-03-23\obj\Debug\net6.0\jmet16-03-23.csproj.CoreCompileInputs.cache
+C:\Users\shadan\Desktop\C#\jmet16-03-23\jmet16-03-23\obj\Debug\net6.0\jmet16-03-23.dll
+C:\Users\shadan\Desktop\C#\jmet16-03-23\jmet16-03-23\obj\Debug\net6.0\refint\jmet16-03-23.dll
+C:\Users\shadan\Desktop\C#\jmet16-03-23\jmet16-03-23\obj\Debug\net6.0\jmet16-03-23.pdb
+C:\Users\shadan\Desktop\C#\jmet16-03-23\jmet16-03-23\obj\Debug\net6.0\jmet16-03-23.genruntimeconfig.cache
+C:\Users\shadan\Desktop\C#\jmet16-03-23\jmet16-03-23\obj\Debug\net6.0\ref\jmet16-03-23.dll

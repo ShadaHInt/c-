@@ -1,0 +1,15 @@
+C:\Users\shadan\Desktop\C#\stringoccurence\stringoccurence\obj\Debug\net6.0\stringoccurence.csproj.AssemblyReference.cache
+C:\Users\shadan\Desktop\C#\stringoccurence\stringoccurence\obj\Debug\net6.0\stringoccurence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shadan\Desktop\C#\stringoccurence\stringoccurence\obj\Debug\net6.0\stringoccurence.AssemblyInfoInputs.cache
+C:\Users\shadan\Desktop\C#\stringoccurence\stringoccurence\obj\Debug\net6.0\stringoccurence.AssemblyInfo.cs
+C:\Users\shadan\Desktop\C#\stringoccurence\stringoccurence\obj\Debug\net6.0\stringoccurence.csproj.CoreCompileInputs.cache
+C:\Users\shadan\Desktop\C#\stringoccurence\stringoccurence\bin\Debug\net6.0\stringoccurence.exe
+C:\Users\shadan\Desktop\C#\stringoccurence\stringoccurence\bin\Debug\net6.0\stringoccurence.deps.json
+C:\Users\shadan\Desktop\C#\stringoccurence\stringoccurence\bin\Debug\net6.0\stringoccurence.runtimeconfig.json
+C:\Users\shadan\Desktop\C#\stringoccurence\stringoccurence\bin\Debug\net6.0\stringoccurence.dll
+C:\Users\shadan\Desktop\C#\stringoccurence\stringoccurence\bin\Debug\net6.0\stringoccurence.pdb
+C:\Users\shadan\Desktop\C#\stringoccurence\stringoccurence\obj\Debug\net6.0\stringoccurence.dll
+C:\Users\shadan\Desktop\C#\stringoccurence\stringoccurence\obj\Debug\net6.0\refint\stringoccurence.dll
+C:\Users\shadan\Desktop\C#\stringoccurence\stringoccurence\obj\Debug\net6.0\stringoccurence.pdb
+C:\Users\shadan\Desktop\C#\stringoccurence\stringoccurence\obj\Debug\net6.0\stringoccurence.genruntimeconfig.cache
+C:\Users\shadan\Desktop\C#\stringoccurence\stringoccurence\obj\Debug\net6.0\ref\stringoccurence.dll
